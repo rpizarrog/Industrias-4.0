@@ -52,6 +52,20 @@ nuevas.edades <- c(55, 60, 20)
 predict(object = modelo, newdata = data.frame(edades = nuevas.edades))
 
 
+# Predicciomes conforme a la FORMULA Y = a + bx
+# Coeficientes
+# a y b
+a <- modelo$coefficients[1]
+b <- modelo$coefficients[2]
+
+
+# Y = a + bx
+
+Y <- a + b * nuevas.edades
+Y
+
+# igua a predict()
+predict(object = modelo, newdata = data.frame(edades = nuevas.edades))
         
 
 
