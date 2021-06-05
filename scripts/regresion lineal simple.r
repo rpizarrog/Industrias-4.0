@@ -9,8 +9,9 @@ library(ggplot2) # Gráficos amigables
 
 # <- es igua que el signo de igual <- es = como asignación
 
-edades <- c(10, 15, 20, 30, 40, 56, 67, 82, 45, 46, 58, 66, 70, 19)
-achaques <- c(5, 7, 8, 10, 15, 20, 22, 16, 28, 26, 18, 23, 24, 22) # escala 5-30
+edades <- c(10, 15, 20, 30, 40, 56, 67, 82, 45, 46, 58, 66, 70, 19, 43, 45, 46, 46, 47, 48, 42, 23)
+achaques <- c(5, 7, 8, 10, 15, 20, 22, 16, 28, 26, 18, 23, 24, 22, 18, 16, 18, 20, 22, 24, 16, 18) # escala 5-30
+
 
 
 edades
