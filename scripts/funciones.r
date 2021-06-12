@@ -1,6 +1,6 @@
 # Reglas de modelo de regesion
 # para datos de NY
-# Función
+# Función basada en la HERRAMIENTA BigML para la generación de árbol de Regresi+on con datos de NY
 predecirTemperatura <- function(ozono=NA,
                                radiacion=NA,
                                vel_viento=NA,
